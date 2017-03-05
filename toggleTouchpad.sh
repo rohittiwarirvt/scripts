@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# A simple script to do the Toggle of touchpad for lenovo thinkpad
 declare -i ID
 ID=`xinput list| grep -Eo 'Generic Mouse\s*id\=[0-9]{1,2}'| grep -Eo '[0-9]{1,2}'`
 declare -i STATE
